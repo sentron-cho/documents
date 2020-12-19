@@ -8,7 +8,7 @@
 ### image 강제종료/삭제 
 - docker rmi -f [image name]
 
-###사용하지 않는 볼륨만 제거
+### 사용하지 않는 볼륨만 제거
  - docker volume prune
 
 ### docker volume list show

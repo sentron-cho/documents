@@ -1,6 +1,3 @@
-# documents
-개발 관련 자료 모음
-
 ## docker 기본 명령어
 
 ### container 강제종료/삭제(-f 묻지 않고 삭제)

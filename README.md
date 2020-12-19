@@ -2,18 +2,18 @@
 개발 관련 자료 모음
 
 ## docker 기본 명령어
-### container 강제종료/삭제
+### container 강제종료/삭제(-f 묻지 않고 삭제)
 - docker rm -f [container name]
 
-### image 강제종료/삭제 
+### image 강제종료/삭제(-f 묻지 않고 삭제)
 - docker rmi -f [image name]
 
-### 사용하지 않는 볼륨만 제거
- - docker volume prune
+### 사용하지 않는 볼륨만 제거(-f 묻지 않고 제거)
+ - docker volume prune -f
 
-### 사용하지 않는 이미지 제거
+### 사용하지 않는 이미지 제거(-f 묻지 않고 제거)
  - docker rmi $(docker images -f "dangling=true" -q)
- - docker image prune
+ - docker image prune -f
 
 ### docker volume list show
  - docker volume ls

@@ -11,6 +11,10 @@
 ### 사용하지 않는 볼륨만 제거
  - docker volume prune
 
+### 사용하지 않는 이미지 제거
+ - docker rmi $(docker images -f "dangling=true" -q)
+ - docker image prune
+
 ### docker volume list show
  - docker volume ls
  
